@@ -7,3 +7,8 @@
     font-size: 1.4em;
     margin-bottom: 0.5em;
 }
+
+.list-item input[type=checkbox] {
+    transform: scale(2.5);
+    margin-left: 0em;
+}
