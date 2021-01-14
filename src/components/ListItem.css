@@ -6,6 +6,11 @@
     font-family: 'Balsamiq Sans', cursive;
     font-size: 1.4em;
     margin-bottom: 0.5em;
+    transition: 0.2s ease-in-out;
+}
+
+.list-item:hover {
+    transform: scale(1.02)
 }
 
 .list-item input[type=checkbox] {

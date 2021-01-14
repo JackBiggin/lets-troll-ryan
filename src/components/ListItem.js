@@ -5,8 +5,13 @@ import "./ListItem.css"
 function ListItem(props) {
     const [isComplete, setIsComplete] = useState(false)
 
+    let styles = {}
+    if(isComplete) {
+        styles = {backgroundColor: "#f8a5c2"}
+    }
+
   return (
-    <div className="list-item">
+    <div className="list-item" style={styles}>
         <Row>
             <Col xs={1}>
                 <Form.Check

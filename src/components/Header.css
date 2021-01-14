@@ -13,6 +13,11 @@ header img {
     margin-bottom: 2em;
     width: 12em;
     height: auto;
+    transition: .8s ease-in-out;
+}
+
+header img:hover {
+    transform: rotate(360deg) scale(1.5);
 }
 
 header h1 {
